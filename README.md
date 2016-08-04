@@ -1,0 +1,4 @@
+# MobileSavingPOC
+This project is a small proof of concept Unity project showing how to save and load data, specifically with mobile Android support in mind. The project shows how to use Unity's PlayerPrefs to save small data sets such as player preferences as well as how to serialize and read and write data to and from binary files.
+The project consists of a single UI scene. The text in the middle represents the data that can be saved or loaded. The scene includes buttons for changing the text to "yes" or "no" as well as buttong for saving the data either to the PlayerPrefs or binary file system. The project is setup for use on Android devices. 
+The Android build Player Settings did not need to be edited to support file i/o, and should be Unity default other than setting the Bundle Identifier.
